@@ -1,7 +1,38 @@
 
 .container .container-fluid h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 4rem;
 }
 .container .container-fluid h4 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+.container .container-fluid {
+    margin-top: 1rem;
+    padding-left: 40px;
+}
+.column-buttons .btn{
+    background-color: rgb(81, 194, 81);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.column-buttons .btn:hover {
+    background-color: rgb(31, 128, 31)
+}
+.container .menu {
+    margin-top: 1rem;
+    margin-left: 45px;
+    margin-right:12px;
+}
+.container .menu .btn{
+    background-color: rgb(81, 194, 81);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .menu .btn:hover {
+    background-color: rgb(31, 128, 31)
+}
+.container .row img{
+    margin-top: 2rem;
 }
