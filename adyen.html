@@ -1,0 +1,146 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Adyen Website</title>
+      <link rel="stylesheet" href="adyen.css">
+      
+    </head>
+
+
+    <body>
+<!--Navigation--------------------------------------------------------------------------------------------------------------->   
+    <div class="container">
+        <a href="#" class="brand-logo left"><img src="adyen1.jpg" alt="Logo" width="100px"></a>
+        <nav class="white">
+          <div class="nav-wrapper">
+            <a href="#" class="sidenav-trigger black-text" data-target="mobile-demo">
+                <i class="material-icons">menu</i></a>
+
+ <!------Left part of Navigation--------------------------------------------------------------------------------------------->
+            <ul class="left hide-on-med-and-down">
+                    <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown1">Our Solution
+                        <i class="material-icons right">arrow_drop_down</i></a></li>
+
+                    <li><a class="black-text">Customers</a></li>
+
+                    <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown2">About Us
+                        <i class="material-icons right">arrow_drop_down</i></a></li>
+
+                    <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown3">Documentation
+                        <i class="material-icons right">arrow_drop_down</i></a></li>    
+            </ul>
+<!------Left part of Navigation--------------------------------------------------------------------------------------------->          
+
+
+
+<!--Right part of navigation------------------------------------------------------------------------------------------------>
+            <ul class="right hide-on-med-and-down">
+                    <li><a class="black-text"><i class="material-icons">search</i></a></li>
+                    <li><a class="black-text">Contact Us</a></li>
+                    <li><a class="black-text">Log In</a></li>
+                    <li><a class="green white-text waves-effect waves-light btn">Create An Account</a></li>
+            </ul>
+<!--Right part of navigation------------------------------------------------------------------------------------------------>
+
+
+
+<!--Sidenav for mobile phones----------------------------------------------------------------------------------------------->
+            <ul class="sidenav black-text" id="mobile-demo">
+                <li><a href="#">Our Solution</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Creat An Account</a></li>
+              </ul>
+<!--Sidenav for mobile phones----------------------------------------------------------------------------------------------->
+
+
+
+<!----Dropdown Structure----------------------------------------------------------------------------------------------------->
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+            </ul>
+            <ul id="dropdown2" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+            </ul>
+            <ul id="dropdown3" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+            </ul>
+<!--Sidenav for mobile phones----------------------------------------------------------------------------------------------->
+
+
+
+          </div>
+       </nav>
+    </div>
+
+<!--Navigation---------------------------------------------------------------------------------------------------------------> 
+
+
+<div class="container">
+    <div class="container-fluid">
+     <div class="row">
+      <div class="col-lg-6">
+        <h1 class="display-1 mt-5" >Accept <br>payments everywhere</h1>
+        <h4> 
+            Meet the payments platform built for any <br> business and every customer journey.
+        </h5>
+        <button type="button" class="green white-text">Start your journey with us</button>
+      </div>
+
+      <div class="col-lg-6">
+        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" class="img-fluid" />
+      </div>
+     </div>
+   </div>
+</div>
+  <hr class="my-4" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="adyen.js"></script>        
+    <script>
+         $(document).ready(function(){
+             $('.sidenav').sidenav();
+        });
+    </script> 
+         
+    </body>
+  </html>
