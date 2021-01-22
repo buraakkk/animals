@@ -1,24 +1,10 @@
 
-.container .container-fluid h1 {
-    margin-bottom: 1rem;
-    padding-top: 4rem;
-}
-.container .container-fluid h4 {
-    margin-bottom: 1rem;
-}
-.container .container-fluid {
-    margin-top: 1rem;
-    padding-left: 40px;
-}
-.column-buttons .btn{
-    background-color: rgb(81, 194, 81);
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.column-buttons .btn:hover {
-    background-color: rgb(31, 128, 31)
-}
+
+
+
+
+
+/*--------------------------------------------------Menu CSS---------------------------------------------------------------------*/
 .container .menu {
     margin-top: 1rem;
     margin-left: 45px;
@@ -33,6 +19,104 @@
 .container .menu .btn:hover {
     background-color: rgb(31, 128, 31)
 }
-.container .row img{
-    margin-top: 2rem;
+/*---------------------------------------------------Menu CSS---------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------Second Part---------------------------------------------------------------*/
+.container .container-fluid {
+    margin-top: 1rem;
+    padding-left: 40px;
 }
+.container .container-fluid h1 {
+    margin-bottom: 1rem;
+    padding-top: 4rem;
+}
+.container .container-fluid h4 {
+    margin-bottom: 1rem;
+}
+
+.column-buttons .btn{
+    background-color: rgb(81, 194, 81);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.column-buttons .btn:hover {
+    background-color: rgb(31, 128, 31)
+}
+/*---------------------------------------------------Second Part---------------------------------------------------------------*/
+
+
+/*------------------------------------------------Growth revenue part--------------------------------------------------------*/
+.static .container .row img {
+    margin-left: 2rem;
+}
+/* First Part*/
+.static .container .row .partfirst {
+    padding-left: 6rem;
+    margin-bottom: 10rem;
+}
+.static .container .row .partfirst img {
+   margin-top: 7rem;
+   margin-left: 5rem;
+}
+.static .container .row .partfirst h1 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+}
+.static .container .row .partfirst h5 {
+    text-align: center;
+    margin-left: -4rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .partfirst a {
+    margin-left: 2rem;
+}
+
+/* Second Part*/
+.static .container .row .partsecond {
+    padding-left: 6rem;
+    margin-bottom: 10rem;
+}
+.static .container .row .partsecond img {
+   margin-top: 7rem;
+   margin-left: 5rem;
+}
+.static .container .row .partsecond h1 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+}
+.static .container .row .partsecond h5 {
+    text-align: center;
+    margin-left: -4rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .partsecond a {
+    margin-left: 2rem;
+}
+
+/* Third Part*/
+.static .container .row .partthird {
+    padding-left: 6rem;
+    margin-bottom: 10rem;
+}
+.static .container .row .partthird img {
+   margin-top: 7rem;
+   margin-left: 5rem;
+}
+.static .container .row .partthird h1 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+}
+.static .container .row .partthird h5 {
+    text-align: center;
+    margin-left: -4rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .partthird a {
+    margin-left: 2rem;
+}
+/*------------------------------------------------Growth revenue part--------------------------------------------------------*/
+
