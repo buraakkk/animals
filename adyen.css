@@ -73,6 +73,14 @@ body {
 }
 .static .container .row .partfirst a {
     margin-left: 2rem;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    color:green;
+}
+.static .container .row .partfirst a:hover {
+    text-decoration: underline;
 }
 
 /* Second Part*/
@@ -96,6 +104,14 @@ body {
 }
 .static .container .row .partsecond a {
     margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+.static .container .row .partsecond a:hover {
+    text-decoration: underline;
 }
 
 /* Third Part*/
@@ -118,6 +134,15 @@ body {
 }
 .static .container .row .partthird a {
     margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.static .container .row .partthird a:hover {
+    text-decoration: underline;
 }
 /*------------------------------------------------Growth revenue part--------------------------------------------------------*/
 
@@ -259,17 +284,145 @@ body {
 
 /*------------------------------------------------Seventh Part----------------------------------------------------------------------------------*/
 
-.container-fluid .row  .seventhpart  {
+.container.container-fluid .row   {
     margin-top:5rem;
+    margin-left: 4rem;
+}
+.container-fluid .row .seven h1 {
+    margin-left: 7rem;
+    padding-top: 10rem;
+}
+.container-fluid .row .seven h4 {
+    margin-left: 7rem;
+    font-weight: lighter;
+    font-family: arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    line-height: 30px;
+    text-align: left;
+    margin-right:7rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.container-fluid .row .seven a {
+    margin-left: 7rem;
+    color: green;
+    font-size: 100%;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: bolder;
+}
+.container-fluid .row .seven a:hover {
+    text-decoration: underline;
+}
+/*-----------------------------------------------------Seventh Part-----------------------------------------------------------------------------*/
 
+/*---------------------------------------------------------Eight Part---------------------------------------------------------------------------*/
+.static .container .row img {
+    margin-top: 3rem;
+}
+/* First Part*/
+.static .container .row .eightfirst {
+    padding-left: 3rem;
+   
 }
 
+.static .container .row .eightfirst h6 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+    
+}
+.static .container .row .eightfirst p {
+    text-align: center;
+    margin-left: -6rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .eightfirst a {
+    margin-left: 2rem;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    color:green;
+}
+.static .container .row .eightfirst a:hover {
+    text-decoration: underline;
+}
 
+/* Second Part*/
+.static .container .row .eightsecond {
+    padding-left: 2rem;
+    
+}
+.static .container .row .eightsecond h6 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+}
+.static .container .row .eightsecond p {
+    text-align: center;
+    margin-left: -10rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .eightsecond a {
+    margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+.static .container .row .eightsecond a:hover {
+    text-decoration: underline;
+}
 
+/* Third Part*/
+.static .container .row .eightthird {
+    padding-left: 1rem;
+  ;
+}
+.static .container .row .eightthird img {
+   
+}
+.static .container .row .eightthird h6 {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    padding-left: 2rem;
+}
+.static .container .row .eightthird p {
+    text-align: center;
+    margin-left: -10rem;
+    margin-bottom: 2rem;
+}
+.static .container .row .eightthird a {
+    margin-left: 2rem;
+    color: green;
+    text-transform: capitalize;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
 
+.static .container .row .eightthird a:hover {
+    text-decoration: underline;
+}
+/*---------------------------------------------------------Eight Part---------------------------------------------------------------------------*/
 
+/*---------------------------------------------------------Nine Part---------------------------------------------------------------------------*/
 
+.nine .container-fluid{
+    background-color: #54e346;
+}.nine .container-fluid h1 {
+    padding-top: 5rem;
+}
+.nine .container-fluid .btn {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background-color: rgb(9, 9, 36);
+    color:white;
+    text-transform:none
+}
 
-
-
-/*------------------------------------------------Seventh Part----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------Nine Part---------------------------------------------------------------------------*/
