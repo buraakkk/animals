@@ -2,8 +2,9 @@
 
 
 
-
-
+body {
+    font-family:Fakt, sans-serif, Helvetica;
+}
 /*--------------------------------------------------Menu CSS---------------------------------------------------------------------*/
 .container .menu {
     margin-top: 1rem;
@@ -155,23 +156,61 @@
 /*------------------------------------------------Accept Payment  part-------------------------------------------------------------------------*/
 
 
-
-
-
 /*------------------------------------------------Two col 6 parts------------------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container .row .col-lg-5 {
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+.container .row .col-lg-5 img{
+    margin-bottom: 2rem;
+}
+.container .row .col-lg-5 h5{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container .row .col-lg-5 p{
+    font-weight: lighter;
+    font-family: arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.container .col-lg-5 a {
+    color: green;
+    font-size: 100%;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;   
+}
+.container .col-lg-5 a:hover {
+    text-decoration: underline;
+}
 /*------------------------------------------------Two col 6 parts------------------------------------------------------------------------------*/
+
+/*------------------------------------------------Fourth Part----------------------------------------------------------------------------------*/
+.four-part .container-fluid .row  {
+    background-color: rgb(9, 9, 36);
+    color:white;
+}
+.four-part .container-fluid .row h1 {
+    margin-left: 1.5rem;
+    padding-right: 15rem;
+    margin-top: 12rem;
+    font-weight: bolder;
+    
+}
+.four-part .container-fluid .row p{
+    font-weight: lighter;
+    font-family: arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding-right: 16rem;
+    padding-top: 2rem;
+    margin-left: 1.5rem;
+    font-weight: bolder;
+}
+/*------------------------------------------------Fourth Part----------------------------------------------------------------------------------*/
