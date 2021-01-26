@@ -156,19 +156,21 @@ body {
 
 
 /*------------------------------------------------Accept Payment  revenue part--------------------------------------------------------*/
-.jumbotron .container h1 {
+.accept .container .row h1 {
     margin-top: 5rem;
-    margin-left: 25rem;
-    font-size: 320%;
+    margin-left: 22rem;
+    font-size: 45px;
+    font-weight: bolder;
 }
-.jumbotron .container p {
+.accept .container .row p {
     margin-top: 2rem;
-    margin-left: 25rem;
-    font-size: 130%;
+    padding-left: 22rem;
+    padding-right: 22rem;
+    font-size: 16px;
 }
-.jumbotron .container a {
+.accept .container .row a {
     margin-top: 1rem;
-    margin-right: 25rem;
+    margin-right: 2rem;
     color: green;
     text-transform: capitalize;
     font-size: 100%;
@@ -178,7 +180,7 @@ body {
     text-decoration: none;
     font-size: 16px;
 }
-.jumbotron .container a:hover {
+.accept .container .row a:hover {
     text-decoration: underline;
 }
 /*------------------------------------------------Accept Payment  part-------------------------------------------------------------------------*/
@@ -267,20 +269,22 @@ body {
 /*------------------------------------------------Fiveth Part----------------------------------------------------------------------------------*/
 
 /*------------------------------------------------Sixth Part----------------------------------------------------------------------------------*/
-.jumbotron  .sixpart h1 {
+.payment  .container .row h1 {
     margin-bottom: 2rem;
     font-weight: bolder;
+    font-size: 40px;
+    margin-top: 5rem;
+    
 }
-.jumbotron  .sixpart a {
-    margin-left: 25rem;
+.payment  .container .row a {
     color: green;
-    font-size: 100%;
+   
     background-color: white;
     border: none;
     text-decoration: none;
     font-size: 16px;  
 }
-.jumbotron  .sixpart a:hover {
+.payment  .container .row a:hover {
     text-decoration: underline;
 }
 /*------------------------------------------------Sixth Part----------------------------------------------------------------------------------*/
@@ -386,9 +390,7 @@ body {
     padding-left: 1rem;
   ;
 }
-.static .container .row .eightthird img {
-   
-}
+
 .static .container .row .eightthird h6 {
     padding-bottom: 1rem;
     padding-top:1rem;
@@ -442,4 +444,159 @@ body {
 
 .bg-light .container-fluid ul li a {
     color: white;
+}
+/*--------------------------------------------------Mobile Device Part-------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) { 
+
+    .accept .container .row h1 {
+        margin-top: 5rem;
+        margin-left: 0rem;
+        font-size: 320%;
+    }
+    .accept .container .row p {
+        margin-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-size: 100%;
+    }
+
+    .accept .container .row a {
+        margin-top: 1rem;
+        margin-right: 2rem;
+        color: green;
+        text-transform: capitalize;
+        background-color: white;
+        border: none;
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+
+    
+    .four-part .container-fluid .row h1 {
+        margin-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1rem;
+        
+    }
+    .four-part .container-fluid .row p{
+        font-size:12px;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    #services  .row h1 {
+        font-size: 30px;
+        padding-top: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+        
+    }
+    #services  .row p {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 16px;
+    }
+    .container-fluid .row .seven h1 {
+        margin-left: 1rem;
+        padding-top: 1rem;
+    }
+    .container-fluid .row .seven h4 {
+        margin-left: 1rem;
+        font-size:12px;
+        margin-right:1rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .container-fluid .row .seven a {
+        margin-left: 1rem;
+    }
+    
+    
+  
+}
+    
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+    .accept .container .row h1 {
+        margin-top: 5rem;
+        margin-left: 0rem;
+        font-size: 320%;
+    }
+    .accept .container .row p {
+        margin-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-size: 100%;
+    }
+
+    .accept .container .row a {
+        margin-top: 1rem;
+        margin-right: 2rem;
+        color: green;
+        text-transform: capitalize;
+        background-color: white;
+        border: none;
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+
+    
+    .four-part .container-fluid .row h1 {
+        margin-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1rem;
+        
+    }
+    .four-part .container-fluid .row p{
+        font-size:12px;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    #services  .row h1 {
+        font-size: 30px;
+        padding-top: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+        
+    }
+    #services  .row p {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 16px;
+    }
+    .container-fluid .row .seven h1 {
+        margin-left: 1rem;
+        padding-top: 1rem;
+    }
+    .container-fluid .row .seven h4 {
+        margin-left: 1rem;
+        font-size:12px;
+        margin-right:1rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .container-fluid .row .seven a {
+        margin-left: 1rem;
+    }
+    
+}
+ 
+   
+    
+@media only screen and (min-width: 1025px) {
+    
+  
+  
 }
