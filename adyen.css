@@ -404,7 +404,6 @@ body {
     text-decoration: none;
     font-size: 16px;
 }
-
 .static .container .row .eightthird a:hover {
     text-decoration: underline;
 }
@@ -426,3 +425,10 @@ body {
 }
 
 /*---------------------------------------------------------Nine Part---------------------------------------------------------------------------*/
+.bg-light .container  {
+    background-color:  rgb(9, 9, 36);
+    color: white;
+}
+.bg-light .container ul li a {
+    color: white;
+}
