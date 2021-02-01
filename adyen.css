@@ -63,6 +63,7 @@ body {
 .static .container .row .partfirst img {
    margin-top: 7rem;
    margin-left: 5rem;
+   
 }
 .static .container .row .partfirst h1 {
     padding-bottom: 1rem;
@@ -328,6 +329,7 @@ body {
 /*---------------------------------------------------------Eight Part---------------------------------------------------------------------------*/
 .static .container .row img {
     margin-top: 3rem;
+    max-width: 100%;
 }
 /* First Part*/
 .static .container .row .eightfirst {
@@ -516,9 +518,34 @@ body {
     .container-fluid .row .seven a {
         margin-left: 1rem;
     }
+    .static .container .row .partfirst {
+        margin-bottom: 0rem;
+    }
+    .static .container .row .partsecond {
+        margin-bottom: 0rem;
+    }
+    .static .container .row .partthird {
+        margin-bottom: 0rem;
+    }
+    .container .row .col-lg-5 {
+        margin-top: 6rem;
+        margin-left: 0rem;
+    }
+    .container.container-fluid .row   {
+        margin-left: 0rem;
+    }
+    .container-fluid .row .seven h1 {
+        margin-left: 0rem;
+    }
+    .container-fluid .row .seven h4 {
+         margin-left: 0rem;
+         margin-right:0rem;
+    }
+    .container-fluid .row .seven a {
+         margin-left: 1rem;
+    }
     
-    
-  
+
 }
     
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
@@ -577,19 +604,53 @@ body {
         font-size: 16px;
     }
     .container-fluid .row .seven h1 {
-        margin-left: 1rem;
+        margin-left: 0rem;
         padding-top: 1rem;
     }
     .container-fluid .row .seven h4 {
-        margin-left: 1rem;
+        margin-left: 0rem;
         font-size:12px;
         margin-right:1rem;
         margin-bottom: 2rem;
         margin-top: 2rem;
     }
     .container-fluid .row .seven a {
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
+    .static .container .row .partfirst {
+        
+        margin-bottom: 0rem;
+    }
+    .static .container .row .partsecond {
+      
+        margin-bottom: 0rem;
+    }
+    .static .container .row .partthird {
+       
+        margin-bottom: 0rem;
+    }
+    .container .row .col-lg-5 {
+        margin-top: 6rem;
+        margin-left: 0rem;
+    }
+    .container .row .col-lg-5 {
+        margin-top: 6rem;
+        margin-left: 0rem;
+    }
+    .container.container-fluid .row   {
+        margin-left: 0rem;
+    }
+    .container-fluid .row .seven h1 {
+        margin-left: 0rem;
+    }
+    .container-fluid .row .seven h4 {
+         margin-left: 0rem;
+         margin-right:0rem;
+    }
+    .container-fluid .row .seven a {
+         margin-left: 1rem;
+    }
+    
     
 }
  
