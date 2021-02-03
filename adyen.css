@@ -544,7 +544,36 @@ body {
     .container-fluid .row .seven a {
          margin-left: 1rem;
     }
-    
+    .bg-light .container-fluid .row{
+        margin-left: 0rem;
+        margin-top: 5rem;
+        line-height: 30px;
+        margin-right: 0rem;
+        font-size: 7px;
+    }
+    .bg-light .container-fluid .row h5{
+        
+        font-size: 10px;
+    }
+    .container .container-fluid {
+        margin-top: 1rem;
+        padding-left: 40px;
+       
+    }
+    .container .container-fluid h1 {
+        margin-bottom: 1rem;
+        padding-top: 4rem;
+        font-size: 12px;
+    }
+    .container .container-fluid h4 {
+        margin-bottom: 1rem;
+        font-size: 8px;
+    }
+    .container .container-fluid a {
+        margin-bottom: 1rem;
+        font-size: 8px;
+    }
+
 
 }
     
@@ -552,14 +581,17 @@ body {
 
     .accept .container .row h1 {
         margin-top: 5rem;
-        margin-left: 0rem;
-        font-size: 320%;
+        margin-left: 13rem;
+        margin-right: 6rem;
+        font-size: 270%;
+        text-align: center;
     }
     .accept .container .row p {
         margin-top: 2rem;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        font-size: 100%;
+        padding-left: 12rem;
+        margin-right: 6rem;
+        padding-right: 10rem;
+        font-size: 170%;
     }
 
     .accept .container .row a {
@@ -571,7 +603,7 @@ body {
         border: none;
         padding: 15px 32px;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 18px;
     }
     
 
@@ -650,12 +682,73 @@ body {
     .container-fluid .row .seven a {
          margin-left: 1rem;
     }
+    .payment .container h1 {
+        margin-left: 12rem;
+    }
+    .payment .container p {
+        margin-left: 12rem;
+    }
+    .payment .container h1 {
+        margin-left: 12rem;
+    }
+    .static .container .row img {
+        margin-left: -2rem;
+    }
+    .static .container .row .eightfirst h6 {
+        margin-left: -2rem;
+        
+    }
+    .static .container .row .eightfirst p {
+        margin-left: -4rem;
+        margin-top: 1rem;
     
+    }
+    .static .container .row .eightfirst a {
+        margin-left: -2rem; 
+    }
+    .static .container .row .eightsecond h6 {
+        margin-left: -2rem;
+        
+    }
+    .static .container .row .eightsecond p {
+        margin-left: -4rem;
+        padding-top: -1rem;
+    }
+    .static .container .row .eightsecond a {
+        margin-left: -2rem;
+    }
+    .static .container .row .eightthird h6 {
+        margin-left: -2rem;
+        
+    }
+    .static .container .row .eightthird p {
+        margin-left: -5rem;
+        padding-top: 0rem;
+    }
+    .static .container .row .eightthird a {
+        margin-left: -2rem;
+    }
     
+    .bg-light .container-fluid .row{
+        margin-left: 2rem;
+        margin-top: 5rem;
+        line-height: 30px;
+        margin-right: 2rem;
+    }
+    .container .container-fluid  {
+        font-size: 25px;
+    }
+    .container .container-fluid h4 {
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+    .container .container-fluid a {
+        margin-bottom: 1rem;
+        font-size: 12px;
+    }
+
 }
  
-   
-    
 @media only screen and (min-width: 1025px) {
     
   
