@@ -533,6 +533,7 @@ body {
     }
     .container.container-fluid .row   {
         margin-left: 0rem;
+        margin-top: ;
     }
     .container-fluid .row .seven h1 {
         margin-left: 0rem;
@@ -573,6 +574,7 @@ body {
         margin-bottom: 1rem;
         font-size: 8px;
     }
+    
 
 
 }
